@@ -1,0 +1,93 @@
+.backbutton{
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    height: 35px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+p{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 1300px;
+    margin-top: 100px;
+}
+
+body{
+    background-image: linear-gradient(#6AB8FF, #46FFF4);
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#circle{
+        width: 370px;
+        margin-left: 780px;
+        margin-top: 90px;
+        position: absolute; z-index: 20;
+        opacity: 0; }
+
+#circle2{
+        width: 365px;
+        margin-left: 800px;
+        margin-top: 220px;
+        position: absolute; z-index: 20;
+        opacity: 0;
+        }
+
+#circle3{
+        width: 370px;
+        margin-left: 800px;
+        margin-top: 340px;
+        position: absolute; z-index: 20;
+        opacity: 0;
+}
+
+#circle4{
+    width: 370px;
+    margin-left: 765px;
+    margin-top: 440px;
+    position: absolute; z-index: 20;
+    opacity: 0;
+    
+}
+
+#lvl1{
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 270px;
+    height: 500px;
+}
+
+#nextLevelButton{
+    height: 60px;
+    width: 150px;
+    background-color: yellow;
+    font-weight: bolder;
+    margin-left: 1400px;
+    margin-top: 500px;
+
+}
+
+a {
+    width: 150px;
+}
+
+
+#playButton{
+    height: 50px;
+    position: absolute;
+    z-index: 100px;
+    margin-top: 100px;
+}
+
+#pauseButton{
+    height: 50px;
+    position: absolute;
+    z-index: 100px;
+    margin-left: 50px;
+    margin-top: 100px;
+}

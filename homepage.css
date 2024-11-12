@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(#6AB8FF, #46FFF4);
+    width: 100%d;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.levelbox{
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.level1 {
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    border-radius: 14px;
+}
+
+.level2 {
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    border-radius: 14px;
+}
+
+.level3 {
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    border-radius: 14px;
+}
+
+.level4 {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    border-radius: 14px;
+}
+
+.backbutton{
+    background-color: aliceblue;
+    font-weight: bolder;
+    outline: hidden;
+    height: 35px;
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+

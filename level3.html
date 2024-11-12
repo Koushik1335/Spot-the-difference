@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <link rel="stylesheet" href="level3.css">
+        <script src="level3.js"></script>
+        
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spot the difference</title>
+    </head>
+
+    <body>
+
+        <audio id="audioPlayer" src="gameaudio.mp3"></audio>
+        <img type="button" src="playbutton.png" id="playButton" >
+        <img type="button" src="stopbutton.png" id="pauseButton">
+
+        <a href="homepage.html">
+            <button class="backbutton"> Back </button>
+        </a>
+
+        <img src="level3.png" id="lvl3" >
+        <p>Find 5</p>
+
+        <img onclick="changeOpacity('circle')" id="circle" src="circle.png" alt="redcircle" style="opacity: 0;">
+
+        <img onclick="changeOpacity('circle2')" id="circle2" src="circle.png" alt="redcircle" style="opacity: 0;">
+
+        <img onclick="changeOpacity('circle3')" id="circle3" src="circle.png" alt="redcircle" style="opacity: 0;">
+
+        <img onclick="changeOpacity('circle4')" id="circle4" src="circle.png" alt="redcircle" style="opacity: 0;">
+
+        <img onclick="changeOpacity('circle5')" id="circle5" src="circle.png" alt="redcircle" style="opacity: 0;">
+
+        <a href="level4.html">
+        <button id="nextLevelButton" onclick="goToNextLevel()" style="display: none;">Next Level</button>
+
+        <script>
+            const audioPlayer = document.getElementById('audioPlayer');
+            const playButton = document.getElementById('playButton');
+            const pauseButton = document.getElementById('pauseButton');
+        
+            // Play button event
+            playButton.addEventListener('click', () => {
+                audioPlayer.play();
+            });
+        
+            // Pause button event
+            pauseButton.addEventListener('click', () => {
+                audioPlayer.pause();
+            });
+        </script>
+
+        
+    </a>
+
+
+    </body>

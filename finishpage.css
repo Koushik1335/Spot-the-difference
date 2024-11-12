@@ -1,0 +1,85 @@
+h1{
+    display: inline;
+    text-align: center;
+    font-size: 64px;
+    font-family: fantasy;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    left: calc(-421px + 50%);
+    top: 0px;
+    width: 848px;
+    height: 141px;
+    position: absolute;
+    --f2w-order: 0;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    font-family: fantasy;
+    font-weight: 400;
+    color: #000;
+    background-clip: text;
+    left: 450px;
+    top: 180px;
+    width: 1048px;
+    height: 178px;
+    position: absolute;
+}
+
+p{
+    display: inline;
+    text-align: left;
+    font-size: 32px;
+    font-family: fantasy;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    color: #000;
+    background-clip: text;
+    left: 100px;
+    top: 402px;
+    width: 1068px;
+    height: 306px;
+    position: absolute;
+}
+
+ol{
+    display: inline;
+    text-align: left;
+    font-size: 32px;
+    font-family: fantasy;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    color: #000;
+    -webkit-background-clip: text;
+    background-clip: text;
+    left: 450px;
+    top: 480px;
+    width: 1068px;
+    height: 306px;
+    position: absolute;
+    --f2w-order: 1;
+}
+
+body{
+    background-image: linear-gradient(#6AB8FF, #46FFF4);
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+#back{
+    margin-left: 1650px;
+    height: 60px;
+    width: 150px;
+    background-color: yellow;
+    font-weight: bolder;
+    margin-top: 800px;
+    position: absolute;
+    z-index: 5;
+}
